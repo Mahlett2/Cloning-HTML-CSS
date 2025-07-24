@@ -1,0 +1,22 @@
+.contact-footer {
+  background-color: yellow;
+  margin-top: 50px;
+  /* margin-bottom: 30px; */
+  /* padding-bottom: 20px; */
+  height: 230px;
+  text-align: center;
+}
+.contact-footer p {
+  font-size: 40px;
+  padding: 40px;
+}
+.contact-footer button {
+  background-color: black;
+  color: yellow;
+  padding: 15px 35px;
+  cursor: pointer;
+}
+.contact-footer button:hover {
+  background-color: #fff;
+  color: black;
+}

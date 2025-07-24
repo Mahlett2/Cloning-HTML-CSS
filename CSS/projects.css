@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.home-section {
+  padding: 5px 5px;
+}
+.horizontal-line {
+  border-top: 1px solid black;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  width: 100%;
+}
+.frist-logo {
+  display: flex;
+  column-gap: 1150px;
+}
+.frist-logo p {
+  font-size: 16px;
+  padding-top: 5px;
+  margin-left: 50px;
+}
+.frist-logo button {
+  margin-right: 50px;
+  background-color: blue;
+  border-radius: 20px;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 25px;
+}
+.main-section {
+  background-color: #fff;
+  position: fixed;
+  right: 40px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.logo {
+  margin-top: 15px;
+  font-size: 18px;
+  margin-left: 80px;
+  position: absolute;
+  font-size: 18px;
+}
+.navigation-top {
+  position: relative;
+  padding-right: 80px;
+  float: right;
+}
+.navigation-top ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 15px 15px;
+}
+.navigation-top ul li:hover {
+  border-bottom: 2px solid black;
+}
+.navigation-top ul button {
+  font-size: 18px;
+  padding: 8px 40px;
+  background-color: rgb(255, 255, 4);
+}
+.navigation-top ul a button:hover {
+  background-color: black;
+  color: #fff;
+}
+.navigation-top a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+/* ..................................... */
+.project-section {
+  width: 1520px;
+  height: 600px;
+  background-image: url(../Image/a4c183_e15d62757f3043af8ea1bbe3b2f2f06d~mv2.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  position: relative;
+}
+.project-section::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(10, 10, 10, 0.5);
+}
+.project-note {
+  border-left: 1px solid #fff;
+  padding-left: 30px;
+  height: 120px;
+  position: absolute;
+  top: 420px;
+  left: 180px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.project-note h4 {
+  padding: 5px;
+}
+.project-note p {
+  font-size: 54px;
+  font-weight: 540;
+}
+/* ................................ */
+.container {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  column-gap: 40px;
+}
+.project-image-1 {
+  width: 450px;
+  height: 350px;
+  background-image: url(../Image/a4c183_72d88e2ddb36468f95ddb98c4aa0ad5c~mv2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+.project-image-1::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(10, 10, 10, 0.5);
+}
+.note-project-1 {
+  position: absolute;
+  top: 320px;
+  left: 35px;
+  transition: -0.3s ease;
+}
+.project-image-1:hover {
+  transform: scale(0.98);
+}
+.note-project-1 p {
+  font-size: 18px;
+  color: #fff;
+}
+/* ........................... */
+.project-image-2 {
+  width: 450px;
+  height: 350px;
+  background-image: url(../Image/a4c183_a82b3c99d4f74932a9715bc12b973535~mv2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+.project-image-2::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(10, 10, 10, 0.5);
+}
+.note-project-2 {
+  position: absolute;
+  top: 320px;
+  left: 35px;
+  transition: -0.3s ease;
+}
+.project-image-2:hover {
+  transform: scale(0.98);
+}
+.note-project-2 p {
+  font-size: 18px;
+  /* git fetch origin
+git checkout constraction-company-website */
+  color: #fff;
+}
+/* ............................ */
+.project-image-3 {
+  width: 450px;
+  height: 350px;
+  background-image: url(../Image/a4c183_ff7a335f21184f47bc763de15be7f9fd~mv2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+.project-image-3::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(10, 10, 10, 0.5);
+}
+.note-project-3 {
+  position: absolute;
+  top: 320px;
+  left: 35px;
+  transition: -0.3s ease;
+}
+.project-image-3:hover {
+  transform: scale(0.98);
+}
+.note-project-3 p {
+  font-size: 18px;
+  color: #fff;
+}
+/* ............................ */
+/* ................................... */
+.whole-container {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  column-gap: 40px;
+}
+.other-section {
+  width: 450px;
+  height: 350px;
+  background-image: url(../Image/a4c183_72d88e2ddb36468f95ddb98c4aa0ad5c~mv2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+.other-section::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(10, 10, 10, 0.5);
+}
+.other-notes {
+  position: absolute;
+  top: 320px;
+  left: 35px;
+  transition: -0.3s ease;
+}
+.other-section:hover {
+  transform: scale(0.98);
+}
+.other-notes p {
+  font-size: 18px;
+  color: #fff;
+}
+/* ............................ */
+.other-section-2 {
+  width: 450px;
+  height: 350px;
+  background-image: url(../Image/GettyImages-183371607.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+.other-section-2::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(10, 10, 10, 0.5);
+}
+.other-notes-2 {
+  position: absolute;
+  top: 320px;
+  left: 35px;
+  transition: -0.3s ease;
+}
+.other-section-2:hover {
+  transform: scale(0.98);
+}
+.other-notes-2 p {
+  font-size: 18px;
+  color: #fff;
+}
+/* ........................ */
+.other-section-3 {
+  width: 450px;
+  height: 350px;
+  background-image: url(../Image/GettyImages-1254413327.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+.other-section-3::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(10, 10, 10, 0.5);
+}
+.other-section-3:hover {
+  transform: scale(0.98);
+}
+.other-notes-3 {
+  position: absolute;
+  top: 320px;
+  left: 35px;
+  transition: -0.3s ease;
+}
+.other-notes-3 p {
+  font-size: 18px;
+  color: #fff;
+}

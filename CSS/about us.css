@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.home-section {
+  padding: 5px 5px;
+}
+.horizontal-line {
+  border-top: 0.5px solid black;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  width: 100%;
+}
+.frist-logo {
+  display: flex;
+  column-gap: 1150px;
+}
+.frist-logo p {
+  font-size: 16px;
+  padding-top: 5px;
+  margin-left: 50px;
+}
+.frist-logo button {
+  margin-right: 50px;
+  background-color: blue;
+  border-radius: 20px;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 25px;
+}
+.main-section {
+  background-color: #fff;
+  position: fixed;
+  right: 40px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.logo {
+  margin-top: 15px;
+  font-size: 18px;
+  margin-left: 80px;
+  position: absolute;
+  font-size: 18px;
+}
+.navigation-top {
+  position: relative;
+  padding-right: 80px;
+  float: right;
+}
+.navigation-top ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 15px 15px;
+}
+.navigation-top ul li:hover {
+  border-bottom: 2px solid black;
+}
+.navigation-top ul button {
+  font-size: 18px;
+  padding: 8px 40px;
+  background-color: rgb(255, 255, 4);
+}
+.navigation-top ul a button:hover {
+  background-color: black;
+  color: #fff;
+}
+.navigation-top a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+/* .......................................... */
+.hr-line {
+  border-top: 0.5px black;
+  width: 1520px;
+  position: relative;
+  top: 210px;
+}
+.about-us-container {
+  display: flex;
+  position: relative;
+  top: 240px;
+  margin-left: 80px;
+}
+.about-front {
+  margin-right: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.about-front p {
+  font-size: 66px;
+  font-weight: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.about-flex h4 {
+  margin: 30px 0;
+}
+.about-flex p {
+  font-size: 18px;
+  word-spacing: 1.5px;
+}
+.about-flex img {
+  width: 640px;
+  margin-top: 80px;
+  margin-bottom: 200px;
+}
+/* ......................................... */
+.about-second-half {
+  display: flex;
+  margin-top: 270px;
+  margin-left: 80px;
+  margin-bottom: 150px;
+}
+.about-heading {
+  margin-right: 240px;
+}
+.about-heading p {
+  font-size: 64px;
+}
+.heading-note h4 {
+  margin-bottom: 30px;
+}
+.heading-note p {
+  font-size: 18px;
+  word-spacing: 1.5px;
+}
+/* ....................................... */

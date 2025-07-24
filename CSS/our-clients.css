@@ -1,0 +1,12 @@
+.our-clients-images img {
+  width: 170px;
+  padding: 45px;
+  margin-left: 30px;
+}
+.super-container {
+  background-color: rgb(235, 234, 234);
+}
+.super-container h3 {
+  text-align: center;
+  padding-top: 50px;
+}

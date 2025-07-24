@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.home-section {
+  padding: 5px 5px;
+}
+.horizontal-line {
+  border-top: 1px solid black;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+.frist-logo {
+  display: flex;
+  column-gap: 1150px;
+}
+.frist-logo p {
+  font-size: 16px;
+  padding-top: 5px;
+  margin-left: 50px;
+}
+.frist-logo button {
+  margin-right: 50px;
+  background-color: blue;
+  border-radius: 20px;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 25px;
+}
+.main-section {
+  background-color: #fff;
+  position: fixed;
+  right: 40px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.logo {
+  margin-top: 15px;
+  font-size: 18px;
+  margin-left: 80px;
+  position: absolute;
+  font-size: 18px;
+}
+.navigation-top {
+  position: relative;
+  padding-right: 80px;
+  float: right;
+}
+.navigation-top ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 15px 15px;
+}
+.navigation-top ul li:hover {
+  border-bottom: 2px solid black;
+}
+.navigation-top ul button {
+  font-size: 18px;
+  padding: 8px 40px;
+  background-color: rgb(255, 255, 4);
+}
+.navigation-top ul a button:hover {
+  background-color: black;
+  color: #fff;
+}
+.navigation-top a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+.section {
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+.service-image img {
+  width: 600px;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+.service-note {
+  margin-top: 100px;
+}
+.service-note p {
+  padding-top: 20px;
+  font-size: 52px;
+  padding-bottom: 30px;
+}
+.service-note details {
+  border-bottom: 1px solid black;
+  width: 700px;
+  padding-left: 10px;
+}
+.service-note summary:hover {
+  background-color: hwb(60 0% 0%);
+}
+
+.service-note details p {
+  font-size: 24px;
+  padding-left: 30px;
+  color: rgb(43, 43, 43);
+}
+.service-note summary {
+  font-size: 32px;
+}
