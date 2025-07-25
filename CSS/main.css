@@ -149,6 +149,9 @@
   background-color: yellow;
   clip-path: polygon(10% 3%, 12% 80%, 60% 80%, 95% 40%, 60% 0%);
 }
+.pentagons p:hover {
+  background-color: rgba(123, 220, 123, 0.5);
+}
 .pentagons h3 {
   position: absolute;
   top: 55px;
@@ -158,6 +161,9 @@
   background-color: yellow;
   clip-path: polygon(65% 0%, 12% 45%, 10% 90%, 50% 65%, 95% 35%, 100% 1%);
 }
+.pentagons h3:hover {
+  background-color: rgba(123, 220, 123, 0.5);
+}
 .pentagons h5 {
   position: absolute;
   top: 50px;
@@ -166,4 +172,7 @@
   height: 180px;
   background-color: yellow;
   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+.pentagons h5:hover {
+  background-color: rgba(123, 220, 123, 0.5);
 }

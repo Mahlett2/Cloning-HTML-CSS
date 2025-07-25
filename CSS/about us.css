@@ -25,8 +25,12 @@
   background-color: blue;
   border-radius: 20px;
   font-size: 18px;
-  color: #fff;
   padding: 10px 25px;
+}
+.frist-logo button a {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
 }
 .main-section {
   background-color: #fff;
