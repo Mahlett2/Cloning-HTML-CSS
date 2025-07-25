@@ -17,17 +17,6 @@
   position: absolute;
   background-color: rgba(10, 10, 10, 0.1);
 }
-/* .image-container {
-  position: absolute
-  /* background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; */
-/* display: flex;
-}
-.image img {
-  width: 1520px;
-  height: 600px;
-} */
 .vertical-line {
   border: 0.1px solid rgb(129, 128, 128);
   height: 800px;

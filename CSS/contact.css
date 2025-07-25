@@ -101,12 +101,6 @@
   text-decoration: none;
   color: black;
 }
-/* .hrr-line {
-  border-top: 0.5px black;
-  width: 1520px;
-  position: relative;
-  top: 250px;
-} */
 hr {
   position: relative;
   top: 320px;
@@ -184,7 +178,6 @@ textarea:hover {
   text-decoration: none;
   display: flex;
   padding-top: 70px;
-  /* margin-top: 50px; */
   margin-left: 80px;
   column-gap: 220px;
   padding-bottom: 30px;
@@ -220,14 +213,6 @@ textarea:hover {
   position: absolute;
   top: 1770px;
 }
-/* hr {
-  margin-left: 80px;
-  margin-right: 80px;
-  position: relative;
-  top: 1500px;
-  width: 1430px;
-  margin-left: 50px;
-} */
 .lower-footer {
   font-size: 18px;
   text-align: center;
@@ -235,6 +220,5 @@ textarea:hover {
   padding-bottom: 20px;
 }
 .lower-footer a {
-  /* text-decoration: none; */
   color: black;
 }

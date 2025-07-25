@@ -6,7 +6,6 @@
   text-decoration: none;
   display: flex;
   padding-top: 70px;
-  /* margin-top: 50px; */
   margin-left: 80px;
   column-gap: 220px;
   padding-bottom: 30px;
@@ -48,6 +47,5 @@ hr {
   padding-bottom: 20px;
 }
 .lower-footer a {
-  /* text-decoration: none; */
   color: black;
 }

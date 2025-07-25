@@ -184,8 +184,6 @@
 }
 .note-project-2 p {
   font-size: 18px;
-  /* git fetch origin
-git checkout constraction-company-website */
   color: #fff;
 }
 /* ............................ */
@@ -224,7 +222,6 @@ git checkout constraction-company-website */
   color: #fff;
 }
 /* ............................ */
-/* ................................... */
 .whole-container {
   display: flex;
   margin-left: 50px;
