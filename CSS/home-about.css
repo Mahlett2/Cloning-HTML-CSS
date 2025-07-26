@@ -53,3 +53,9 @@
   color: black;
   margin-right: 10px;
 }
+.link {
+  transition: 0.3 ease;
+}
+.link:hover {
+  transform: scale(0.99);
+}
