@@ -65,7 +65,7 @@
 .navigation-top ul button {
   font-size: 18px;
   padding: 8px 40px;
-  background-color: rgb(255, 255, 4);
+  background-color: yellow;
 }
 .navigation-top ul a button:hover {
   background-color: black;
