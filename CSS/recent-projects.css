@@ -1,0 +1,46 @@
+.recent-projects {
+  margin-left: 50px;
+}
+.recent-projects h3 {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.recent-projects p {
+  font-size: 60px;
+  padding-bottom: 50px;
+}
+.fontawsome {
+  transition: 0.3 ease;
+}
+.fontawsome:hover {
+  transform: scale(0.99);
+}
+.fontawsome a {
+  text-decoration: none;
+  color: black;
+}
+.fontawsome a i {
+  background-color: black;
+  padding: 18px;
+  color: white;
+  margin-right: 10px;
+}
+.recent-image-container {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.recent-image {
+  padding: 0 30px;
+  padding-left: 10px;
+  overflow: hidden;
+}
+.recent-image img {
+  width: 335px;
+  height: 300px;
+  transition: transform 0.5s;
+  opacity: 1;
+}
+.recent-image img:hover {
+  transform: scale(1.05);
+}
